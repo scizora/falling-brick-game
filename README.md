@@ -132,8 +132,8 @@ The project follows a clean separation of concerns:
 1. Clone the repository:
 
 ```
-git clone <your-repo-link>
-cd match-3-game
+git clone https://github.com/scizora/falling-brick-game.git
+cd falling-brick-game
 ```
 
 2. Build the project:
@@ -142,7 +142,7 @@ cd match-3-game
 mvn clean install
 ```
 
-3. Run the application:
+3. Run the application in git bash:
 
 ```
 mvn exec:java -Dexec.mainClass="Main"
@@ -150,9 +150,11 @@ mvn exec:java -Dexec.mainClass="Main"
 
 ---
 
-### Alternative (IDE)
+### Run Alternative (IDE)
 
-You can also run the program directly from your IDE (e.g., VS Code or IntelliJ) by running the `Main` class.
+You can also run the program directly from your IDE (e.g., VS Code or IntelliJ) by running the `Main` class. e.g 
+via vscode > Run > Start Debugging
+<img width="2975" height="1050" alt="image" src="https://github.com/user-attachments/assets/21030fc3-107d-4c07-8404-a44d87d34b1f" />
 
 ---
 

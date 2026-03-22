@@ -1,0 +1,9 @@
+Main.class
+model\Position.class
+services\Board.class
+model\Orientation.class
+services\ScoreService.class
+input\InputHandler.class
+model\Brick.class
+services\MatchService.class
+constants\GameConfig.class

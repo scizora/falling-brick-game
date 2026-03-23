@@ -73,30 +73,32 @@ Players control bricks made up of three symbols and place them on a board to for
 ### Architecture Overview
 
 The project follows a clean separation of concerns:
-    +------------------+
-    |   InputHandler   |
-    +------------------+
-             |
-             v
-    +------------------+
-    |       Main       |
-    |  (Game Loop)     |
-    +------------------+
-      |       |       |
-      v       v       v
- +--------+ +--------------+ +-------------+
- | Board  | | MatchService | | ScoreService|
- +--------+ +--------------+ +-------------+
-      |
-      v
- +------------------+
- |      Brick       |
- | Position, Orient |
- +------------------+
+```
+        +------------------+
+        |   InputHandler   |
+        +------------------+
+                 |
+                 v
+        +------------------+
+        |       Main       |
+        |  (Game Loop)     |
+        +------------------+
+          |       |       |
+          v       v       v
+     +--------+ +--------------+ +-------------+
+     | Board  | | MatchService | | ScoreService|
+     +--------+ +--------------+ +-------------+
+          |
+          v
+     +------------------+
+     |      Brick       |
+     | Position, Orient |
+     +------------------+
 
- +------------------+
- |  BrickFactory    |
- +------------------+
+     +------------------+
+     |  BrickFactory    |
+     +------------------+
+```
 ### Model Layer
 
 * `Brick` – Represents a moving brick

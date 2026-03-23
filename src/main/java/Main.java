@@ -51,7 +51,7 @@ public class Main {
 
                 String commands = input.readCommands();
 
-                // 🔥 TRACK ONLY EXECUTED COMMANDS
+                // TRACK ONLY EXECUTED COMMANDS
                 boolean usedDrop = false;
 
                 for (int i = 0; i < Math.min(2, commands.length()); i++) {
@@ -102,7 +102,7 @@ public class Main {
 
                     if (currentBrickIndex >= templates.size()) {
 
-                        // ✅ show final cleared board
+                        // show final cleared board
                         System.out.println("Score: " + scoreService.getScore());
                         board.printBoard();
 
@@ -112,7 +112,7 @@ public class Main {
 
                     brick = createFreshBrick(templates.get(currentBrickIndex));
 
-                    // ===== GAME OVER CHECK =====
+                    // ===== GAME OVER =====
                     if (!board.canPlace(brick)) {
                         board.printBoard();
                         System.out.println("Game Over.");

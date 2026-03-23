@@ -179,6 +179,7 @@ mvn exec:java -Dexec.mainClass="Main"
 
 You can also run the program directly from your IDE (e.g., VS Code or IntelliJ) by running the `Main` class. e.g 
 via vscode > Run > Start Debugging
+
 If you encounter the error:
 
 Error: Could not find or load main class Main

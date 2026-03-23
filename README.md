@@ -90,10 +90,10 @@ The project follows a clean separation of concerns:
      +--------+ +--------------+ +-------------+
           |
           v
-     +------------------+
-     |      Brick       |
-     | Position, Orient |
-     +------------------+
+     +-----------------------+
+     |      Brick            |
+     | Position, Orientation |
+     +-----------------------+
 
      +------------------+
      |  BrickFactory    |
